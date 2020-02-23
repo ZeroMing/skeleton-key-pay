@@ -6,8 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="skeleton-key-pay" />
+        <module name="pay-samples" />
+        <module name="pay-gateway" />
+        <module name="pay-api" />
+        <module name="pay-admin" />
+        <module name="pay-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webchat-pay" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

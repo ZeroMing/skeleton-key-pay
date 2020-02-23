@@ -6,6 +6,14 @@
 
     <groupId>org.leolee</groupId>
     <artifactId>skeleton-key-pay</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>pay-gateway</module>
+        <module>pay-admin</module>
+        <module>pay-api</module>
+        <module>pay-common</module>
+        <module>pay-samples</module>
+    </modules>
 
 </project>
